@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', \App\Http\Controllers\HomeController::class)->name('home');
 
-Route::get('/blog', [\App\Http\Controllers\PostController::class, 'index'])->name('blog.index');
+Route::get('/blog', [\App\Http\Controllers\PostController::class, 'index'])->name('posts.index');
 
 
 Route::middleware([
