@@ -8,10 +8,6 @@ class SearchBox extends Component
 {
     public $search = '';
 
-    public function updatedSearch()
-    {
-        $this->dispatch('search', search: $this->search);
-    }
 
     public function update()
     {
