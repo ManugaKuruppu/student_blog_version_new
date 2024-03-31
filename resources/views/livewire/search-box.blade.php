@@ -11,8 +11,9 @@
             <input
                 wire:model.live.debounce.300ms="search"
                 class="w-40 ml-1 bg-transparent focus:outline-none focus:border-none focus:ring-0 outline-none border-none text-xs text-gray-800 placeholder:text-gray-400"
-                type="text" placeholder="Search Yelo">
+                type="text" placeholder="Whats on your mind?">
         </div>
+
     </div>
 </div>
 
